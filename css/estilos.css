@@ -1,0 +1,30 @@
+  @font-face {
+    font-family: BRAESIDE;
+    src: url(../fonte/BRAESIDE.ttf);
+  }
+
+  body {
+    background-image:url(../imagens/fundo.png);
+  }
+  
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #6c5823;
+    color:#FFF;
+    text-align:center;
+    font-family:BRAESIDE;
+    font-size: 50px;
+  }
+
+  #fundo {
+    width:450px;
+    height:450px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#FFF;
+    margin:auto;
+    position: relative;
+    overflow: hidden;;
+    z-index:1;
+  }
